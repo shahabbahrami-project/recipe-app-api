@@ -26,7 +26,7 @@ class PublicIngredientsApiTests(TestCase):
         self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)
 
 
-class PrivateTagsApiTests(TestCase):
+class PrivateIngredientsApiTests(TestCase):
     """Test the authorized user ingredients API"""
 
     def setUp(self):
